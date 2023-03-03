@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Create the main window
 root = tk.Tk()
-root.title('Bathymetry Data')
+root.title('Bathymetric Data')
 
 
 # Define the function to load the data and plot the grid
@@ -35,7 +35,7 @@ def plot_grid():
     plt.colorbar()
     plt.xlabel('X')
     plt.ylabel('Y')
-    plt.title('Bathymetry Data')
+    plt.title('Bathymetric Data')
     plt.show()
 
 
